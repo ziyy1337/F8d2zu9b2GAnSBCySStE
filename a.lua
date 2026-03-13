@@ -108,12 +108,6 @@ if not is_solara then
 
 	task.wait(1)
 
-	if not getgenv().done then
-		game:GetService("Players")["LocalPlayer"]:Kick("juju > anticheat has updated, please wait for an update. this is for your safety <3 (D)")
-		return
-	end
-end
-
 if is_solara then
 	game:GetService("Players")["LocalPlayer"]:Kick("Your executor is not supported.")
 	return
